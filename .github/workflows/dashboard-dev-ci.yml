@@ -1,0 +1,13 @@
+name: Dashboard Frontend CI/CD (Dev)
+
+on:
+  push:
+    branches:
+      - dev
+  workflow_dispatch:
+
+env:
+  ECR_REGISTRY: 914702167433.dkr.ecr.us-east-1.amazonaws.com
+  ECR_REPOSITORY: oodlessitefe
+  IMAGE_TAG: dev-latest
+
