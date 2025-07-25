@@ -11,3 +11,4 @@ env:
   ECR_REPOSITORY: oodlessitefe
   IMAGE_TAG: stage-latest
 
+    This is updated stage-file
