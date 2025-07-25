@@ -1,15 +1,15 @@
-name: Dashboard Frontend CI/CD (Dev)
+name: Dashboard Frontend CI/CD (Stage)
 
 on:
   push:
     branches:
-      - dev
+      - stage
   workflow_dispatch:
 
 env:
   ECR_REGISTRY: 914702167433.dkr.ecr.us-east-1.amazonaws.com
   ECR_REPOSITORY: oodlessitefe
-  IMAGE_TAG: dev-latest
+  IMAGE_TAG: stage-latest
 
+    This is updated stage-file
 
-    This is updated dev file
